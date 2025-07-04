@@ -9,7 +9,7 @@ function App() {
     { name: "Alice Johnson", RollNo: "103", course: "Physics", Age: 21, Email: "papan@gmail.com" }
   ]
   return (
-    <div className="App">
+    <div className="app">
       <h1>Hello, {name}!</h1>
       <h2>Student Details</h2>
       <table>
