@@ -1,0 +1,20 @@
+{
+	"info": {
+		"_postman_id": "134aec5c-4da7-4afe-bb49-599306e97fac",
+		"name": "StudentMarksManagementSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "46150932",
+		"_collection_link": "https://student-api-6359.postman.co/workspace/745e472f-fc37-4f37-a888-b40ec403c195/collection/46150932-134aec5c-4da7-4afe-bb49-599306e97fac?action=share&source=collection_link&creator=46150932"
+	},
+	"item": [
+		{
+			"name": "student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/student"
+			},
+			"response": []
+		}
+	]
+}
