@@ -4,6 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 public class StudentEntity {
@@ -11,10 +13,21 @@ public class StudentEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @NotNull
     private String name;
+
+    @Email
+    @NotNull
     private String email;
+
+    @NotNull
     private String phoneNumber;
+
+    @NotNull
     private String address;
+
+    @NotNull
     private String course;
 
     public String getCourse() {
